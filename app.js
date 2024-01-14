@@ -8,7 +8,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static("public"));
 
-var items = ["Buy Vegetables", "Cook food", "Eat Food"];
+var items = ["Sports", "Movies"];
 var item = "";
 
 app.get("/",function(req,res){
